@@ -1,0 +1,21 @@
+id,tache,phase,duree_j,predecesseurs,responsable,cout_eur
+T01,Lancement et note de cadrage,Cadrage,3,,Chef de projet,1650
+T02,Atelier besoins avec les 3 services,Cadrage,4,T01,Chef de projet,2200
+T03,Validation du cadrage en comité,Cadrage,1,T02,Sponsor,0
+T04,Paramétrage du logiciel (articles et emplacements),Paramétrage,8,T03,Éditeur,6400
+T05,Interfaces avec le système d'achats,Paramétrage,10,T03,DSI,7500
+T06,Extraction et nettoyage du référentiel articles,Données,6,T03,Data analyst,3000
+T07,Reprise des stocks initiaux,Données,3,T06;T04,Data analyst,1500
+T08,Contrôles qualité de la reprise,Données,2,T07,Data analyst,1000
+T09,Recette fonctionnelle,Recette,5,T05;T08,Chef de projet,2750
+T10,Correction des anomalies de recette,Recette,4,T09,Éditeur,3200
+T11,Préparation des supports de formation,Formation,4,T04,Formateur,2000
+T12,Formation des référents (service pilote),Formation,2,T11;T10,Formateur,1000
+T13,Go / No-go pilote,Pilote,1,T12,Sponsor,0
+T14,Déploiement pilote (service A),Pilote,10,T13,Chef de projet,4500
+T15,Bilan du pilote et ajustements,Pilote,3,T14,Chef de projet,1650
+T16,Formation des services B et C,Généralisation,4,T15,Formateur,2000
+T17,Déploiement services B et C,Généralisation,8,T16,Chef de projet,3600
+T18,Mise à jour des procédures qualité,Généralisation,5,T15,Qualité,1500
+T19,Hypercare et support renforcé,Clôture,5,T17,Support,2000
+T20,Bilan de projet et transfert au run,Clôture,2,T19;T18,Chef de projet,1100
