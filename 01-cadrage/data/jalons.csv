@@ -1,0 +1,8 @@
+semaine,jalon,livrable,decision
+1,Lancement,Note de cadrage (version projet),Constitution de l'équipe
+2,Cadrage validé,Note de cadrage signée,Go / No-go du sponsor
+4,Besoins validés,Spécifications fonctionnelles et dictionnaire des KPI,Validation pharmacien gérant
+6,Maquette validée,Maquette du tableau de bord,Arbitrage des écrans prioritaires
+10,Recette terminée,PV de recette signé,Go / No-go mise en production
+11,Mise en production,Tableau de bord publié + guide utilisateur,Ouverture aux utilisateurs
+12,Bilan,Rapport de clôture et mesure des objectifs,Transfert au run

@@ -1,0 +1,6 @@
+risque,probabilite,impact,reponse
+Disponibilité insuffisante des référents métiers,Moyenne,Fort,Planifier les ateliers dès le lancement et les valider en comité
+Qualité des données de stock hétérogène,Forte,Fort,Contrôles qualité dès la semaine 3 et règles de correction validées par le métier
+Élargissement du périmètre en cours de projet,Moyenne,Moyen,Toute demande nouvelle passe par le comité de pilotage
+Adoption faible du tableau de bord,Faible,Fort,Co-construction de la maquette avec 2 utilisateurs clés
+Retard d'accès aux sources de données,Moyenne,Moyen,Demande d'habilitations envoyée en semaine 1

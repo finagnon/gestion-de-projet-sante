@@ -1,0 +1,9 @@
+activite,Sponsor (Directeur des achats),Chef de projet data,Pharmacien gérant,Développeur BI,DSI,DPO,Utilisateurs (préparateurs)
+Valider la note de cadrage,A,R,C,I,C,C,I
+Recueillir et formaliser les besoins,I,A/R,C,C,I,I,C
+Valider la conformité RGPD (minimisation),I,R,I,I,C,A,I
+Modéliser les données et les KPI,I,A,C,R,C,I,I
+Développer le tableau de bord,I,A,I,R,C,I,I
+Réaliser la recette utilisateur,I,A,R,C,I,I,R
+Former les utilisateurs,I,A,C,R,I,I,I
+Décider la mise en production,A,R,C,C,C,I,I
