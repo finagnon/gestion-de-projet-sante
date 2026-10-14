@@ -1,0 +1,21 @@
+id,tache,phase,duree_j,predecesseurs,responsable,cout_eur,debut_au_plus_tot,fin_au_plus_tot,debut_au_plus_tard,fin_au_plus_tard,marge_totale_j,critique,date_debut,date_fin
+T01,Lancement et note de cadrage,Cadrage,3,,Chef de projet,1650,0,3,0,3,0,True,2026-01-05,2026-01-07
+T02,Atelier besoins avec les 3 services,Cadrage,4,T01,Chef de projet,2200,3,7,3,7,0,True,2026-01-08,2026-01-13
+T03,Validation du cadrage en comité,Cadrage,1,T02,Sponsor,0,7,8,7,8,0,True,2026-01-14,2026-01-14
+T04,Paramétrage du logiciel (articles et emplacements),Paramétrage,8,T03,Éditeur,6400,8,16,8,16,0,True,2026-01-15,2026-01-26
+T05,Interfaces avec le système d'achats,Paramétrage,10,T03,DSI,7500,8,18,11,21,3,False,2026-01-15,2026-01-28
+T06,Extraction et nettoyage du référentiel articles,Données,6,T03,Data analyst,3000,8,14,10,16,2,False,2026-01-15,2026-01-22
+T07,Reprise des stocks initiaux,Données,3,T06;T04,Data analyst,1500,16,19,16,19,0,True,2026-01-27,2026-01-29
+T08,Contrôles qualité de la reprise,Données,2,T07,Data analyst,1000,19,21,19,21,0,True,2026-01-30,2026-02-02
+T09,Recette fonctionnelle,Recette,5,T05;T08,Chef de projet,2750,21,26,21,26,0,True,2026-02-03,2026-02-09
+T10,Correction des anomalies de recette,Recette,4,T09,Éditeur,3200,26,30,26,30,0,True,2026-02-10,2026-02-13
+T11,Préparation des supports de formation,Formation,4,T04,Formateur,2000,16,20,26,30,10,False,2026-01-27,2026-01-30
+T12,Formation des référents (service pilote),Formation,2,T11;T10,Formateur,1000,30,32,30,32,0,True,2026-02-16,2026-02-17
+T13,Go / No-go pilote,Pilote,1,T12,Sponsor,0,32,33,32,33,0,True,2026-02-18,2026-02-18
+T14,Déploiement pilote (service A),Pilote,10,T13,Chef de projet,4500,33,43,33,43,0,True,2026-02-19,2026-03-04
+T15,Bilan du pilote et ajustements,Pilote,3,T14,Chef de projet,1650,43,46,43,46,0,True,2026-03-05,2026-03-09
+T16,Formation des services B et C,Généralisation,4,T15,Formateur,2000,46,50,46,50,0,True,2026-03-10,2026-03-13
+T17,Déploiement services B et C,Généralisation,8,T16,Chef de projet,3600,50,58,50,58,0,True,2026-03-16,2026-03-25
+T18,Mise à jour des procédures qualité,Généralisation,5,T15,Qualité,1500,46,51,58,63,12,False,2026-03-10,2026-03-16
+T19,Hypercare et support renforcé,Clôture,5,T17,Support,2000,58,63,58,63,0,True,2026-03-26,2026-04-01
+T20,Bilan de projet et transfert au run,Clôture,2,T19;T18,Chef de projet,1100,63,65,63,65,0,True,2026-04-02,2026-04-03

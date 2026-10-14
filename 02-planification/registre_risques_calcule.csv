@@ -1,0 +1,11 @@
+id,risque,categorie,probabilite,impact,reponse,strategie,proprietaire,statut,score,niveau
+R01,Retard de l'interface avec le système d'achats,Technique,4,4,Spécifications d'interface figées en semaine 2 et point hebdomadaire DSI-éditeur,Réduire,DSI,Ouvert,16,Critique
+R02,Référentiel articles incomplet ou en doublon,Données,4,3,Contrôles qualité automatisés et validation par le pharmacien avant reprise,Réduire,Data analyst,Ouvert,12,Élevé
+R03,Indisponibilité des soignants pour la formation,Organisation,3,4,Sessions courtes de 45 min sur les créneaux de relève,Réduire,Formateur,Ouvert,12,Élevé
+R05,Rupture de stock pendant la bascule,Opérationnel,2,5,Double saisie de sécurité pendant 5 jours et stock tampon,Réduire,Pharmacien,Ouvert,10,Élevé
+R04,Résistance au changement dans le service pilote,Humain,3,3,Désignation de 2 référents ambassadeurs et retours visibles,Réduire,Chef de projet,Ouvert,9,Modéré
+R07,Départ d'une personne clé de l'équipe,Ressources,2,4,Documentation continue et binôme sur chaque lot,Réduire,Chef de projet,Ouvert,8,Modéré
+R08,Non-conformité RGPD des accès utilisateurs,Conformité,2,4,Habilitations par profil validées avec le DPO,Éviter,DSI,Ouvert,8,Modéré
+R06,Dépassement budgétaire éditeur,Financier,2,3,Forfait négocié et réserve de 10 %,Transférer,Sponsor,Ouvert,6,Modéré
+R09,Instabilité du logiciel après mise en production,Technique,2,3,Hypercare de 5 jours et support éditeur prioritaire,Réduire,Éditeur,Ouvert,6,Modéré
+R10,Élargissement du périmètre à d'autres services,Périmètre,3,2,Toute demande passe par le comité de pilotage,Accepter,Sponsor,Ouvert,6,Modéré
