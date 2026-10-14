@@ -1,0 +1,9 @@
+exigence,reference,statut,preuve
+Analyse d'impact (AIPD) réalisée et validée par le DPO,RGPD art. 35,Fait,AIPD v1.2 validée en comité RGPD
+Traitement inscrit au registre des traitements,RGPD art. 30,Fait,Fiche registre n° fictive
+Hébergement par un hébergeur certifié HDS,Code de la santé publique L.1111-8,Fait,Clause contractuelle de l'hébergeur
+Pseudonymisation des données patients dans l'entrepôt,RGPD art. 25 et 32,Fait,Identifiants remplacés par un pseudonyme irréversible
+Minimisation : seules les variables utiles aux indicateurs,RGPD art. 5.1.c,En cours,Revue du dictionnaire de données au sprint 7
+Habilitations par profil et traçabilité des accès,RGPD art. 32,En cours,Matrice des habilitations à valider au sprint 8
+Durée de conservation définie et purge automatisée,RGPD art. 5.1.e,À faire,Règle de purge à paramétrer en release 2
+Information des patients sur la réutilisation des données,RGPD art. 13 et 14,En cours,Note d'information en relecture juridique

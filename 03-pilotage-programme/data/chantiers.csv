@@ -1,0 +1,5 @@
+chantier,responsable,meteo,avancement,commentaire
+Ingestion des données (entrepôt),Data engineer,Nuageux,0.58,Connecteur laboratoire livré avec 2 sprints de retard ; les autres flux sont à l'heure
+Indicateurs qualité des soins,Data analyst,Ensoleillé,0.62,12 indicateurs sur 18 validés par la commission qualité
+Conformité RGPD et sécurité,DPO / RSSI,Ensoleillé,0.80,AIPD validée ; revue des habilitations prévue au sprint 8
+Conduite du changement,Chef de projet,Orageux,0.35,Faible participation des cadres de santé aux démonstrations de sprint

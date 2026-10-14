@@ -1,0 +1,7 @@
+risque,probabilite,impact,tendance,reponse,proprietaire
+Retard des flux du système de laboratoire,4,4,En hausse,Renfort d'un data engineer à 50 % sur les sprints 7 à 10,Sponsor
+Ajouts de périmètre non arbitrés,3,4,Stable,Gel du périmètre de la release 1 décidé en comité,Product owner
+Adoption faible par les cadres de santé,3,5,En hausse,Démonstrations de 20 min dans les réunions de pôle existantes,Chef de projet
+Indicateurs contestés par les médecins,2,4,En baisse,Validation de chaque définition par la commission qualité,Data analyst
+Dérive des coûts de prestation,3,3,En hausse,Revue mensuelle de la valeur acquise et arbitrage des lots,Chef de projet
+Non-conformité des accès aux données de santé,1,5,Stable,Habilitations par profil et traçabilité des accès,DPO / RSSI
